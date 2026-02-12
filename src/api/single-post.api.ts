@@ -12,7 +12,7 @@ export const getSinglePosts = (postId: number | string) => {
 		method: "get",
 		url: "/posts",
 		pathParams: {
-			postId: postId.toString(),
+			postId: postId as string,
 		},
 	})
 }

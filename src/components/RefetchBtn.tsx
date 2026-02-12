@@ -1,4 +1,3 @@
-import React from "react"
 import { useQueryClient } from "@tanstack/react-query"
 import { GET_ALL_POSTS_QUERY_KEY } from "../api/posts.api"
 
